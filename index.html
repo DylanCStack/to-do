@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Your To Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Your To Do List</h1>
+
+      <form id="to-do">
+        <div class="form-group">
+          <label for="to-do">What do you need to do today?</label>
+          <input type="text" name="to-do" id="to-do"class="input" value="asdf">
+        </div>
+        <div class="form-group">
+          <label for="start">When would you like to start?(time, after another entry, ect.)</label>
+          <input type="text" name="start" id="start"class="input"value="asdf">
+        </div>
+        <div class="form-group">
+          <label for="end">When is the deadline, if any?</label>
+          <input type="text" name="end" id="end"class="input"value="asdf">
+        </div>
+
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+
+      <h2 class="entries">Your To do list:</h2>
+      <ul id="entries">
+
+      </ul>
+    </div>
+  </body>
+</html>

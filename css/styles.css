@@ -1,0 +1,9 @@
+.entries {
+  display:none;
+}
+
+.finished {
+  color: grey;
+  text-decoration: line-through;
+
+}
