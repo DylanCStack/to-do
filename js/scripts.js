@@ -7,7 +7,7 @@ function duty(activity, startTime, deadline) {
 
 duty.prototype = {
   createEntry : function(){
-    return "<li><strong>Duty:</strong>  " + this.activity +"<strong>Start Time:</strong>  " + this.startTime + " <strong>Deadline:</strong>  " + this.deadline + "<span id='checkbox'</span></li>"
+    return "<li><strong>Duty:</strong>  " + this.activity +"<strong>Start Time:</strong>  " + this.startTime + " <strong>Deadline:</strong>  " + this.deadline + "<span id='checkbox'></span></li>"
   }
 }
 
@@ -34,8 +34,5 @@ $(document).ready(function() {
       $(this).addClass("finished");
       $(this).children("#checkbox").html("<input type='checkbox' name='vehicle' value='Car' checked='checked'> ")
     })
-
   })
-
-
 })
